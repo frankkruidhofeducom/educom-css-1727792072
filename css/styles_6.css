@@ -1,0 +1,60 @@
+/**
+ * Basis CSS file
+ *
+ * @author  Educom
+ * @version 1.0
+ *
+ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-container {
+  position: relative;
+  background-color: #0c1445;
+  width: 200px;
+  height: 200px;
+}
+
+.star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
+}
+
+.star::before {
+  /* pseudoelemnt voor de driehoek voor de jodenster */
+  content: ""; /* voor het verschijnen van het speudoelement */
+  position: absolute;
+  top: 35px;
+  left: -50px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
+  transform: rotate(180deg);
+}
+
+.text {
+  /* pseudoelemnt voor de tweede driehoek voor de jodenster */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff0000;
+  font-size: 16px;
+  text-align: center;
+}
