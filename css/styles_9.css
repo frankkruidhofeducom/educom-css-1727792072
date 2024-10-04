@@ -1,0 +1,129 @@
+/**
+ * Basis CSS file
+ *
+ * @author  Educom
+ * @version 1.0
+ *
+ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+:root {
+  /* lettertypen */
+  --title: "Aptos Display";
+  --text: "Aptos";
+
+  --black: #000;
+  --black-25: #404040;
+  --black-35: #595959;
+  --smaragd: #3c9a5e;
+}
+
+h1 {
+  font-family: var(--title);
+  font-size: 37.33px;
+  color: var(--black);
+}
+
+h2 {
+  font-family: var(--title);
+  font-size: 26.67px;
+  color: var(--smaragd);
+}
+
+h3 {
+  font-family: var(--title);
+  font-size: 21.33px;
+  color: var(--smaragd);
+}
+
+h4 {
+  font-family: var(--text);
+  font-size: 18.67px;
+  color: var(--black-35);
+}
+
+h5 {
+  font-family: var(--text);
+  font-size: 16px;
+  color: var(--black-25);
+  font-style: italic;
+}
+
+h6 {
+  font-family: var(--text);
+  font-size: 16px;
+  color: var(--black);
+}
+
+/**
+ * Basis CSS file
+ *
+ * @author  Educom
+ * @version 1.0
+ *
+ */
+
+ .button{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   background-color: #000;
+   color: #000;
+   transition: background-image 0.3s ease; 
+ }
+ 
+  .button:hover{
+   background-color: #FFF;
+ }
+
+
+/*
+ 
+ Ondanks dat het in de goede volgorde is klopt dit niet.
+ 
+ a:link {
+   color: red;
+ }
+ 
+ a:visited {
+   color: green;
+ }
+ 
+ a:hover {
+   color: hotpink
+ }
+ 
+ a:active {
+   color: blue;
+ }
+   */
+
+/*
+:root{
+  --title: "Aptos Display";
+
+  --dark-brown: #402214;
+  --lighter-brown: #774231;
+  --lightest-brown: #aa4b1b;
+
+  --darker-red: #b31714;
+  --lighter-red: #dc3439;
+
+  --white: #FFF;
+  --black: #000
+}
+
+h1 {
+font-family: var(--regular);
+color: var(--darker-red)}
+*/
