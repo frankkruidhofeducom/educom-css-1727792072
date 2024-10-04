@@ -1,0 +1,47 @@
+/**
+ * Basis CSS file
+ *
+ * @author  Educom
+ * @version 1.0
+ *
+ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.circle {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: url(https://www.superiorwallpapers.com/images/lthumbs/2015-06/9467_A-winter-night-with-many-stars.jpg)
+   no-repeat center center;
+   background-size: cover;
+    text-decoration: none;
+    transition: background-image 0.3s;
+}
+
+.circle:visited {
+    background: url(https://www.superiorwallpapers.com/images/lthumbs/2015-06/9734_Sunlight-on-the-blue-sky-Clear-sky.jpg)
+   no-repeat center center;}
+
+.circle:hover {
+    background: url(https://www.superiorwallpapers.com/images/lthumbs/2015-06/9068_Sunlight-illuminates-the-mountaintops.jpg)
+   no-repeat center center;
+}
+
+.circle:active{
+    background: url(https://www.superiorwallpapers.com/images/lthumbs/2015-06/9734_Sunlight-on-the-blue-sky-Clear-sky.jpg)
+   no-repeat center center;
+}
